@@ -1,0 +1,213 @@
+* {
+  margin-top: 5px;
+}
+@keyframes animaation {
+  to {
+    opacity: 1;
+  }
+}
+.header {
+  display: flex;
+  width: 90%;
+  height: 10%;
+  margin-left: 5%;
+  border-style: groove;
+  border-radius: 20px;
+}
+.logo {
+  margin-top: 13px;
+  font-size: x-large;
+  color: brown;
+  margin-left: 30px;
+  width: 30%;
+  height: 100%;
+}
+.links {
+  margin: 20px;
+  width: 50%;
+}
+.links > a {
+  text-decoration: none;
+  color: #eeceb9;
+  margin: 10px;
+  padding: 20px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.cart {
+  width: 30%;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.card {
+  margin-top: 20px;
+  display: flex;
+  height: 900px;
+  opacity: 0;
+  animation: animaation 0.9s ease-in 0.1s forwards;
+}
+.leftCard {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+.rightCard {
+  width: 50%;
+}
+.mainPic {
+  width: 500px;
+  height: 500;
+  margin-top: 60px;
+  margin-left: 30px;
+  border-radius: 20px;
+  background-color: #fff3e0;
+}
+.restPics {
+  display: flex;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.smallCards {
+  border: solid;
+  border-width: 3px;
+
+  margin-left: 20px;
+  border-radius: 15%;
+  background-color: #fff3e0;
+  width: 150px;
+  height: 150px;
+}
+.TitleAndDescription {
+  margin-top: 100px;
+  margin-left: 30px;
+  padding: 20px;
+}
+.countAndAddtoCart {
+  margin-top: 90px;
+  margin-left: 50px;
+  display: flex;
+}
+.count {
+  width: 150px;
+  background-color: #cecac8;
+  display: flex;
+  border-radius: 20px;
+  margin-top: 7px;
+}
+.increaseAndDecrease {
+  cursor: pointer;
+  font-size: 20px;
+}
+.sign {
+  margin-left: 30px;
+}
+.main {
+  padding-top: 1px;
+  background-color: white;
+  margin-top: 200px;
+  width: 40%;
+  height: 350px;
+  margin-left: 30%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+.main > h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.detailss {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.detailss > input {
+  width: 550px;
+  height: 8%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.detailss > label {
+  display: block;
+  font-weight: bold;
+}
+.wrap {
+  width: 89%;
+  margin-left: 3%;
+}
+.wrap > button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 11%;
+  border-radius: 8px;
+  background-color: rgb(156, 156, 131);
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  border-color: none;
+}
+.creatAccount {
+  text-align: center;
+}
+.contact {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.contact > h2,
+.contact > h3,
+.contact > h4,
+.contact > p {
+  margin: 60px;
+  color: rgb(107, 38, 38);
+}
+
+.FacebookAndinsta {
+  margin-left: 120px;
+}
+.FIcon {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.collections {
+  margin-top: 30px;
+  margin-left: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.shoesImg {
+  width: 250px;
+  cursor: pointer;
+}
+.checked {
+  color: orange;
+}
+.product {
+  margin: 50px;
+}
+.product > button {
+  width: 120px;
+  font-size: 14px;
+  border-radius: 15px;
+  background-color: #ebe5e2;
+  cursor: pointer;
+}
